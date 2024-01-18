@@ -1,0 +1,68 @@
+.SignUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: #010E0B;
+    color: white;
+    gap: 3rem;
+}
+
+#midPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+input {
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding-left: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#midPart .btnForm {
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: #15DBAB;
+    color: white;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    margin-top: 2rem;
+}
+
+#midPart .btnForm:hover {
+    background-color: #00CACA;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#botPart #linkBtn {
+    color: #15DBAB;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+#botPart #linkBtn:hover {
+    color: #00CACA;
+    transition: all 0.2s ease-in-out;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+}
+
+#botPartSignUp {
+    visibility: hidden;
+}

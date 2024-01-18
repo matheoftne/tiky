@@ -1,0 +1,99 @@
+.WatchMatch {
+    height: 100vh;
+    background-color: #010E0B;
+}
+
+#watchStream {
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+#CanalLogo2 {
+    width: 4rem;
+    height: 1rem;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+    top: 435px;
+    left: 350px;
+}
+
+.club {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#matchScore {
+    color: #fff;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+#matchInfo {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 3rem;
+}
+
+.ppStream {
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+}
+
+#ppStream1 {
+    top: -10px;
+    left: 35px;
+}
+
+#ppStream2 {
+    left: 50px;
+    top: -10px;
+}
+
+#ppStream3 {
+    left: 65px;
+    top: -10px;
+}
+
+#ppStream4 {
+    left: 80px;
+    top: -10px;
+}
+
+#whosHere {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#infoWhosHere {
+    font-size: 0.7rem;
+    color: #fff;
+}
+
+#audioInfo {
+    color: #fff;
+    background-color: #15DBAB;
+    padding: 0.4rem 0.3rem;
+    font-size: 0.6rem;
+    position: absolute;
+    border-radius: 2rem;
+    top: -15px;
+    left: 120px;
+}
+
+#btnChallenge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}

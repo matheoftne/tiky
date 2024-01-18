@@ -1,0 +1,25 @@
+.ResultatsMatchs {
+    padding-bottom: 1rem;
+    background-color: #010E0B;
+}
+
+#titleResultatsMatchs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+#titleResultatsMatchs > h2 {
+    font-size: 1rem;
+    color: #fff;
+}
+
+#btnResultatsMatchs {
+    color: #15DBAB;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.6rem 0.8rem;
+    border-radius: 1rem;
+}

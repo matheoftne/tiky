@@ -1,0 +1,107 @@
+.RoomJoin {
+    height: 100vh;
+    background-color: #010E0B;
+}
+
+#viewMatch {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#selectMatch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#watchMatch {
+    width: 22rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    filter: brightness(0.3);
+}
+
+#btnWatchMatch {
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    z-index: 2;
+    top: 230px;
+    left: 205px;
+}
+
+#light {
+    background-color: #fff;
+    color: #15DBAB;
+}
+
+#btnPlays {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btnTogether {
+    flex-grow: 1;
+}
+
+.btnForm3 {
+    padding: 1rem 2rem;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: #15DBAB;
+    color: white;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+#diffuseur {
+    color: #fff;
+    font-size: 0.6rem;
+    font-weight: 200;
+}
+
+#pp3Top, #pp4Top, #pp5Top {
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: brightness(0.3);
+}
+
+.rankInfo {
+    color: #fff;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.topContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 6rem;
+}
+
+#classement {
+    margin-top: 1rem;
+}
+
+#classement h2 {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.rank {
+    color: #15DBAB;
+    font-size: 1rem;
+    position: absolute;
+    left: 85px;
+    font-weight: 600;
+}

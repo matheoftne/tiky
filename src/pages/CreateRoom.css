@@ -1,0 +1,187 @@
+.CreateRoom {
+    height: 100vh;
+    background-color: #010E0B;
+}
+
+#flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#topPart {
+    background-color: #010E0B;
+}
+
+#midPartCreateRoom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+    color: #fff;
+}
+
+#createRoomName {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#inviteFriends {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#btnInviteFriends {
+    width: 3rem;
+    height: 3rem;
+    background-color: #15DBAB;
+    border-radius: 2rem;
+    box-shadow: 12px 0px 0px #7EF2D6, 22px 0px 0px rgba(21, 219, 171, 0.70);
+}
+
+#btnSpanInviteFriends {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    position: absolute;
+    top: 184px;
+    left: 55px;
+}
+
+#matchChoice {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#choixMatch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#MatchPreview {
+    width: 22rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    filter: brightness(0.3);
+}
+
+#CanalLogo {
+    width: 4rem;
+    height: 1rem;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+    top: 420px;
+    left: 315px;
+}
+
+#btnAddMatch {
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    z-index: 2;
+    top: 350px;
+    left: 205px;
+}
+
+#botPartCreateRoom {
+    visibility: hidden;
+}
+
+#inviteFriends > h2 {
+    font-size: 1rem;
+}
+
+#matchChoice > h2 {
+    font-size: 1rem;
+}
+
+#createRoomName > h2 {
+    font-size: 1rem;
+}
+
+#listingChoices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.5rem;
+}
+
+#left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+#left > h3 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#right .activeChoiceContainer {
+    padding: 1rem 2rem;
+    background-color: #fff;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+#right #activeChoice1, #activeChoice2, #activeChoice3 {
+    padding: 0.8rem 1.2rem;
+    background-color: #15DBAB;
+    border-radius: 0.5rem;
+    position: absolute;
+}
+
+#activeChoice1 {
+    top: 477.5px;
+    left: 330px;
+}
+
+#activeChoice2 {
+    top: 533.5px;
+    left: 330px;
+}
+
+#activeChoice3 {
+    top: 589.5px;
+    left: 330px;
+}
+
+#btnCreateRoom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.btnForm2 {
+    padding: 1rem 3rem;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: #15DBAB;
+    color: white;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    margin-top: 2rem;
+    text-decoration: none;
+    margin-left: 4.5rem;
+}

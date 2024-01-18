@@ -1,0 +1,50 @@
+.Top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: calc(10px + 2vmin);
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem 0rem;
+    background-color: #010E0B;
+}
+
+#secondPart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 0.7rem;
+}
+
+#profilePic {
+    width: 3.8rem;
+    height: 3.8rem;
+}
+
+#profilePic:hover {
+    cursor: pointer;
+}
+
+#pp2 {
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.faBtn {
+    background-color: #15DBAB;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.faBtn:hover {
+    background-color: #00CACA;
+    transition: all 0.2s ease-in-out;
+}

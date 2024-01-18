@@ -1,0 +1,43 @@
+.AddFriends {
+    padding-bottom: 1rem;
+}
+
+#pp1, #pp3, #pp4, #pp5, #pp6 {
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#titleAddFriends {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+#titleAddFriends > h2 {
+    font-size: 1rem;
+    color: #fff;
+}
+
+#btnAddFriends {
+    color: #15DBAB;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.6rem 0.8rem;
+    border-radius: 1rem;
+}
+
+.active {
+    background-color: #15DBAB;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 45px;
+}
+

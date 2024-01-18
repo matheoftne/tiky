@@ -1,0 +1,25 @@
+
+.swiper {
+    width: 90vw;
+    height: auto;
+}
+  
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: none;
+    color: black;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.swiper-slide img {
+    display: block;
+    width: 6rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 1rem;
+ }

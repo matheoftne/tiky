@@ -1,0 +1,99 @@
+.Client {
+    height: 125vh;
+    background-color: #010E0B;
+}
+
+.nameAccount {
+    font-weight: 100;
+}
+
+#midPartClient {
+    padding-top: 1rem;
+}
+
+#clientInfos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+
+#faGear {
+    position: absolute;
+    background-color: #15DBAB;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    left: 118px;
+    top: 10px;
+}
+
+#clientInfos p {
+    margin: 0;
+    padding: 0;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+#profilePic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnRed {
+    background-color: #F93A3A;
+}
+
+#listParam {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1rem;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.btnParam {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid #15DBAB;
+    padding: 1rem 1rem;
+}
+
+#btnsAbo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+#abonnementSet {
+    color: #fff;
+}
+
+.white {
+    background-color: #fff!important;
+}
+
+.btnAbo {
+    padding: 0rem 6rem;
+    font-style: italic;
+    border-radius: 0.4rem;
+    border: none;
+    color: #010E0B;
+    background-color: #15DBAB;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    margin-top: 2rem;
+    text-decoration: none;
+}
+
+.btnAddMore {
+    padding: 1.6rem 2rem;
+}

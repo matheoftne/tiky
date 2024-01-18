@@ -1,0 +1,72 @@
+.FriendsRequests {
+    height: 100vh;
+    background-color: #010E0B;
+    padding: 1rem;
+}
+
+#topPart h1 {
+    color: #fff;
+    font-size: 1rem;
+}
+
+#chercherAmis {
+    margin-left: 1.5rem;
+}
+
+#requestsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.request {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.ppfs {
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nameId {
+    margin: 0;
+    color: #fff;
+}
+
+.timePlay {
+    color: #fff;
+    margin: 0;
+}
+
+.btnAccept {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.5rem 0.8rem;
+    border-radius: 2rem;
+    background-color: #15DBAB;
+    border: none;
+}
+
+.btnDecline {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.5rem 0.8rem;
+    border-radius: 2rem;
+    border: none;
+    margin-left: 1rem;
+}

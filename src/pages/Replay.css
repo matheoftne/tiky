@@ -1,0 +1,23 @@
+.Replay {
+    height: 110vh;
+    background-color: #010E0B;
+}
+
+.match {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.replay1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 0.5rem;
+}
+
+#chercherMatch, #chercherDivision {
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+}
